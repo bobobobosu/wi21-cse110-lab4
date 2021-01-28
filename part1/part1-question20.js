@@ -1,5 +1,4 @@
-var x = 0;
-var intervalID = x.setInterval(printDate, 1000);
+var intervalID = setInterval(printDate, 1000);
 
 function printDate(){
     let d = new Date();

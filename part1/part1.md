@@ -72,3 +72,7 @@ F. true        -> Both true and Boolean(2) are booleans. Since Boolean(2) is tru
 The result would be [ 6, 8, 10 ]. This is because modifyArray accepts doSomething as a callback function. For each element in newArr, the original value in the array is passed into doSomething, which accepts a number and a function that doubles a value. So doSomething would double the value of num+2. In our case, the result would be [2*(1+2), 2*(2+2), 2*(3+2)]
 20. This program only prints out the time once when executed. Modify this code such that the program prints out the time every second.  (This should be a JS file - part1-question20.js)
 21. What is the output of this code? (This should be in your part1.md)
+1
+4
+3
+2
